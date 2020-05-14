@@ -1,0 +1,75 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="landing-page-first-view">
+  <div class="landing-page-rectangle"></div>
+  <div><img src="/static/images/pauli.jpeg" alt="Italian Trulli" class = "landing-page-myphoto"></div>
+  <div class="landing-page-smallrectangle"></div>
+  <div class="landing-page-headline"><h1>Hello there,</h1></div>
+  <div class="landing-page-subheadline"><h1>nice to meet you</h1></div>
+  <div class="landing-page-subheadline2"><h1>My name is Paulina and I like ....... </h1></div>
+</div>
+
+
+
+<div class="about-me-section flex-container">
+  <div class="landing-page-text-boxes">
+    <h2>about me</h2>
+    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. </p>
+  </div>
+</div>
+
+<div class="my-work-section flex-container">
+  <div class="landing-page-text-boxes">
+    <h2>my work</h2>
+    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. </p>
+  </div>
+</div>
+
+<div class="my-projects-section flex-container2">
+  <div><img src="/static/images/unicon.png" alt="Italian Trulli" class="project-photos"></div>
+  <div class= "project-content">
+    <h3>Project 1: unicon</h3>
+    <p class="project-text">
+      Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+    </p>
+  </div>
+</div>
+
+<div class="my-projects-section flex-container2">
+  <div class= "project-content">
+    <h3>Project 2: Between the Lines</h3>
+    <p class="project-text">
+      Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+    </p>
+  </div>
+  <div><img src="/static/images/BTL.png" alt="Italian Trulli" class="project-photos"></div>
+</div>
+
+<div class="newsletter-section">
+  <div class="form-section">
+    <form method="POST" action="">
+      {{ form.hidden_tag() }}
+      <fieldset class="form-group">
+        <legend class="form-headline">Newsletter Sign-Up</legend>
+        <div class="">
+          {{ form.firstname.label(class="form-label") }}
+          {{ form.firstname(class="form-input-field") }}
+        </div>
+        <div class="">
+          {{ form.lastname.label(class="form-label") }}
+          {{ form.lastname(class="form-input-field") }}
+        </div>
+        <div class="">
+          {{ form.email.label(class="form-label") }}
+          {{ form.email(class="form-input-field") }}
+        </div>
+      </fieldset>
+        <div style= "text-align: center" >
+          {{ form.submit(class="submit-button")}}
+        </div>
+    </form>
+</div>
+
+</div>
+
+{% endblock content %}

@@ -1,0 +1,210 @@
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  font-family: Heebo;
+  background-color: #ffffff;
+}
+
+body {
+  background: #ffffff;
+  color: #333333;
+  font-family: Heebo;
+}
+
+p {
+  font-size: 16px;
+}
+
+h1 {
+  color: #444444;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 60px;
+}  
+
+h2 {
+  color: #444444;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 48px;
+} 
+
+h3 {
+  color: #444444;
+  font-family: Menlo;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+} 
+
+* {
+    box-sizing: border-box;
+}
+
+.landing-page-first-view {
+  width: 100vw;
+  height: 100vh;
+}
+
+.landing-page-rectangle {
+  position: absolute;
+  width: 396px;
+  height: 595px;
+  left: 241px;
+  top: 125px;
+  background: #F41E5E;
+}
+
+.landing-page-myphoto {
+  position: absolute;
+  width: 396px;
+  height: 595px;
+  left: 220px;
+  top: 109px;;
+}
+
+.landing-page-headline {
+  position: absolute;
+  width: 281px;
+  height: 72px;
+  left: 764px;
+  top: 309px;
+}
+
+.landing-page-subheadline {
+  position: absolute;
+  width: 352px;
+  height: 60px;
+  left: 771px;
+  top: 379px;
+}
+
+.landing-page-subheadline2 {
+  position: absolute;
+  width: 409px;
+  height: 120px;
+  left: 771px;
+  top: 473px;
+}
+
+.landing-page-smallrectangle {
+  position: absolute;
+  width: 265px;
+  height: 29px;
+  left: 772px;
+  top: 348px;
+  background: #F41E5E;
+}
+
+.about-me-section {
+  background-color: #BDD9BF;
+  width: 100vw;
+  height: 400px;
+  display: inline-block;
+}
+
+.landing-page-text-boxes {
+  width: 70vw;
+  padding-top: 3px;
+  text-align: center;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-container2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.my-work-section {
+  background-color: #ffffff;
+  width: 100vw;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.my-projects-section {
+  width: 70vw;
+  padding: 16px;
+  margin-left: 15vw;
+}
+
+.project-photos {
+  height: 300px;
+  /*width: 400px;*/
+}
+
+.project-content {
+  margin: 0px 40px 40px 40px;
+}
+
+.project-text {
+  font-size: 12px;
+}
+
+.newsletter-section {
+  margin-top: 40px;
+  padding-top: 40px;
+  background-color: #BDD9BF;
+  width: 100vw;
+  height: 500px;
+}
+
+.form-group {
+  font-family: Menlo;
+}
+
+.form-section {
+  margin-left: 25vw;
+  width: 50vw;
+}
+
+.form-headline {
+  font-weight:800;
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+
+.form-label {
+  font-size: 14px;
+  margin-top: 60px;
+}
+
+.form-input-field {
+  margin-bottom: 10px;
+}
+
+input {
+  width: 100%;
+  height: 50px;
+  border: 2px solid #8E9B90;
+  border-radius: 4px;
+  font-size: 16px;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+.submit-button {
+  width: 100px;
+  height: 50px;
+  background-color: #F41E5E;
+  color: white;
+  font-family: Poppins;
+  font-weight: 800;
+  text-align: center;
+  border: black;
+  display: inline-block;
+}
+
