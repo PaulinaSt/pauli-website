@@ -44,6 +44,17 @@ h3 {
   line-height: 28px;
 } 
 
+.footer-section {
+  display:flex;
+  background-color: black;
+  color: white;
+}
+
+.footer-element {
+  flex-direction: space-between;
+  padding: 12px;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -139,6 +150,8 @@ h3 {
   width: 70vw;
   padding: 16px;
   margin-left: 15vw;
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
 
 .project-photos {
@@ -167,7 +180,8 @@ h3 {
 }
 
 .form-section {
-  margin-left: 25vw;
+  margin-left: 20vw;
+  margin-top: 24px;
   width: 50vw;
 }
 
@@ -208,3 +222,6 @@ input {
   display: inline-block;
 }
 
+.login-header-section {
+  margin-left: 10vw;
+}
