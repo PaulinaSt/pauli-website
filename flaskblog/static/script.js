@@ -1,7 +1,7 @@
 const typedTextSpan = document.querySelector(".typed-text");
 const cursorSpan = document.querySelector(".cursor"); //document. could be the problem?
 
-const textArray = ["cool", "chill", "a designer lol", "LIFE"]; //the different strings that are going to be typed
+const textArray = ["cool", "creative", "a designer lol", "funny"]; //the different strings that are going to be typed
 const typingDelay = 200; // miliseconds
 const erasingDelay = 100; //typing is slower than erasing
 const newTextDelay = 2000; // Delay between current and next text
